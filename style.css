@@ -1,10 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media(max-width: 360px)
+{
+    /*prefixing*/
+    *{
+    margin: 0;padding: 0;box-sizing: border-box;
+    }
+    
+    html {
+        position: absolute;
+        width: 360px;
+    }
+    
+    body{
+        font-family: Arial;
+        background: #000;
+        width: 100%;
+    }
+    section div h1 {
+        clear:both;
+        width: 100%;
+        display: block;
+    }
+    /*prefixing*/
+    header {
+        text-align: center;
+    }
+    /*container*/
+    .container nav{
+        align-items: center;
+        justify-content: center;
+    }
+    /*container*/
+    
+    /*classes*/
+    .logo {}
+    .purple-color{}
+    .half_side{
+        
+        padding:10px 10px
+        object-fit: center;
+    }
+    
+    .side_img{
+        height: 400px;
+        width: 150px;
+    }
+    .primary-btn{}
+    .experiences{}
+    .experience-item{}
+    .sticky{
+        background-color: rgba(51,50,30,0.7);
+    }
+    /*classes*/
+}
 body
 {
     font-family: sans serif;
     color:#777777;
     line-height:36px;
 }
-
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+     width:100vw;
+     height:60px;
+     aling-item:center;
+     text-align:center;display:flex;position:relative;background-color:#333;}
+.logo{
+    font-size:30px;
+    color:gold;
+    justify-content:center;
+    position:absolute;
+    margin:0;
+    padding:/*30px*/;
+}
 
 .purple-color{
     color:#8845f4;
@@ -15,8 +89,8 @@ body
     float: left;
 }
 .side_img{
-    width: 50%;
-    padding-left: 25%;
+    width: 100% 
+    padding-left: auto;
 }
 .primary-btn{
     color: white;
@@ -27,7 +101,7 @@ body
 }    
 h1 { font-size: 2pc; }
 .container{
-    padding-left: 5%;
+    padding-left: ;
     display: inline-block;
 }
 .experiences{
@@ -40,5 +114,4 @@ h1 { font-size: 2pc; }
     padding: 10px;
     border-left: 1px solid rgba(137,130,247,.2);
 }
-
 
